@@ -4,12 +4,12 @@
 // Infine scrivi sulla pagina nomecognomecolorepreferito22
 
 
-let firstName = (prompt('Come ti chiami?'));
+const firstName = (prompt('Come ti chiami?'));
 
-let secondName = (prompt('Qual è il tuo cognome?'));
+const secondName = (prompt('Qual è il tuo cognome?'));
 
-let favColor = (prompt('Qual è il tuo colore preferito?'));
+const favColor = (prompt('Qual è il tuo colore preferito?'));
 
-let password = firstName + secondName + favColor + '22';
+const password = firstName + secondName + favColor + '22';
 
 document.getElementById('password').innerHTML = password;
