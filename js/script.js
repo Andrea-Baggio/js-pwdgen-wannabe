@@ -6,23 +6,10 @@
 
 let firstName = (prompt('Come ti chiami?'));
 
-let userName = firstName;
-
-document.getElementById('name').innerHTML = userName;
-
-
-
 let secondName = (prompt('Qual è il tuo cognome?'));
-
-let surName = secondName;
-
-document.getElementById('surname').innerHTML = surName;
-
-
 
 let favColor = (prompt('Qual è il tuo colore preferito?'));
 
-let color = favColor;
+let password = firstName + secondName + favColor + '22';
 
-document.getElementById('color').innerHTML = color;
-
+document.getElementById('password').innerHTML = password;
